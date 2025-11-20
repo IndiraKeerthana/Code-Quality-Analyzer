@@ -102,18 +102,20 @@ Generated using an internal HTML template:
 CodeQualityAnalyzer/
 │
 ├── src/
-│   ├── application/
-│       ├── Main.java
-│       ├── FileChooserController.java
-│       ├── MetricsAnalyzer.java
-│       ├── ScoreCalculator.java
-│       ├── HTMLReportGenerator.java
+│   └── application/
+│        ├── Main.java
+│        ├── Main.fxml
+│        ├── MetricsAnalyzer.java
+│        ├── ScoreCalculator.java
+│        ├── HTMLReportGenerator.java
+│        └── FileChooserController.java
 │
-├── resources/
-│       └── template.html
+├── resources/         ← **real folder (not package)**
+│     └── template.html
 │
 └── lib/
-        └── javafx/*.jar
+      └── javafx jars
+
 
 
 # **Technologies Used**
